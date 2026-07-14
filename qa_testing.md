@@ -1,5 +1,7 @@
 # ForgeOS Quality Assurance & Bug Fix Sprint — Implementation Plan
 
+> Historical audit note, updated 2026-07-14: the code-backed items in this audit have been addressed. The current baseline is 30 passing backend tests plus passing frontend type-check, lint, and production build validation. Credential rotation remains an external operational action whenever a secret has been exposed. The earlier Mascot finding is no longer applicable because the component is imported by active Mission Control panels.
+
 Comprehensive audit results and proposed fixes to make ForgeOS production-ready.
 
 ---
