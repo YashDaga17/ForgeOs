@@ -1,0 +1,17 @@
+# ==============================================================================
+# ForgeOS Backend .gitignore
+# ==============================================================================
+
+# Local virtual environment
+.venv/
+venv/
+
+# Python caching & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local credentials
+.env
+.env.*

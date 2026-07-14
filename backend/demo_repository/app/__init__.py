@@ -1,0 +1,2 @@
+"""Demo FastAPI application package."""
+

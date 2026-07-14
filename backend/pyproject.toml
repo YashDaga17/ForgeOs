@@ -1,0 +1,22 @@
+[project]
+name = "forgeos-backend"
+version = "0.1.0"
+description = "ForgeOS - Autonomous Software Engineering Operating System"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    "openai>=1.50.0",
+    "httpx>=0.27.0",
+    "gitpython>=3.1.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.6.0",
+]

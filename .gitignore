@@ -1,0 +1,81 @@
+# ==============================================================================
+# ForgeOS Root .gitignore
+# ==============================================================================
+
+# Secrets and Local Configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Python Virtual Environments & Packages
+.venv/
+venv/
+ENV/
+env/
+python-local-env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python Build & Run Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.noserc
+.tox/
+.nox/
+.pyre/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js & React Build Cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+
+# Next.js Build & Outputs
+.next/
+out/
+build/
+dist/
+
+# TypeScript Build Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# ForgeOS Workspace Sandbox & Telemetry Runs
+# (Must never be committed to avoid pollution and credential leaks)
+**/workspaces/**
+!**/workspaces/.gitkeep
+**/runs/**
+!**/runs/.gitkeep
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
